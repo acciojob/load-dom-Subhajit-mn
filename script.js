@@ -1,2 +1,7 @@
 //your JS code here. If required.
-document.getElementByTagName("p");
+function load(){
+	console.log(document.getElementByTagName("p").innerHTML);
+}
+window.onload = load;
+
+//document.getElementByTagName("p");
