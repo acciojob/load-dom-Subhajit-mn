@@ -2,8 +2,6 @@
 // function loading(){
 // 	document.body.innerText = "DOM load success";
 // }
-body.addEventListner("DOMContentLoaded", ()=>{
+document.addEventListner("DOMContentLoaded", ()=>{
 	document.body.innerText = "DOM load success";
 });
-
-//document.getElementByTagName("p");
