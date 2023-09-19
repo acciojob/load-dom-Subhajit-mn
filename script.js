@@ -2,7 +2,7 @@
 // function loading(){
 // 	document.body.innerText = "DOM load success";
 // }
-document.addEventListner("DOMContentLoaded", ()=>{
+body.addEventListner("DOMContentLoaded", ()=>{
 	document.body.innerText = "DOM load success";
 });
 
